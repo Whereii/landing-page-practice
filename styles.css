@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-buttons ul {
+    display: flex;
+}
+
+.nav-buttons li{
+ margin-right: 20px;
+}
+
+.nav-logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0 100px;
+}
+
+.upper-page {
+    background-color: #1f2937;
+}
