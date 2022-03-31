@@ -25,10 +25,47 @@ ul {
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 150px 0 150px;
+    margin: 0px 150px 100px 150px;
     align-items: center;
 }
 
 .upper-page {
     background-color: #1f2937;
+}
+
+.info-media img {
+    width: 300px;
+    height: auto;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info-head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.info-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-right: 100px;
 }
