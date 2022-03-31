@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 ul {
@@ -11,7 +12,8 @@ ul {
 }
 
 .nav-buttons li{
- margin-right: 20px;
+ margin-right: 50px;
+ font-size: 18px;
 }
 
 .nav-logo {
@@ -23,7 +25,8 @@ ul {
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 20px 100px 0 100px;
+    margin: 0px 150px 0 150px;
+    align-items: center;
 }
 
 .upper-page {
