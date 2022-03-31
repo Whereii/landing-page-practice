@@ -146,3 +146,40 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.cta-container {
+    width: 70%;
+    height: 150px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px
+}
+
+.cta-header {
+    font-size: 25px;
+    color:#f9faf8;
+    font-weight: 600;
+}
+
+.cta-description {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.cta-button {
+    border: 3px solid;
+    border-color: #f9faf8;
+    padding: 10px 30px;
+    border-radius: 10%;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 500;
+}
