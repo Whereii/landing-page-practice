@@ -68,4 +68,51 @@ ul {
     align-items: flex-start;
     width: 400px;
     margin-right: 100px;
+    margin-bottom: 250px;
+}
+
+.mid-head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.boxes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 5px solid;
+    border-color: #3882f6;
+    margin-bottom: 10px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 400px;
+    align-items: center;
+    margin: 30px;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.mid-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boxes {
+    display: flex;
 }
