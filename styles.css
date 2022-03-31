@@ -116,3 +116,8 @@ ul {
 .boxes {
     display: flex;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+}
